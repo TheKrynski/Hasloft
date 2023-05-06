@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T20:56:39.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gmkozNg6PXXva_LqWeJc" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T21:07:56.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rbWEVTngIKglW4xJoVH4" version="21.2.9" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -7,14 +7,23 @@
         <mxCell id="6a7d8f32e03d9370-62" value="Hasloft Router Networking Layout Rev-0" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="499" y="30" width="861" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U6HYu28x_rnx8HeXfka5-6" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="220" y="190" width="640" height="430" as="geometry" />
+        <mxCell id="U6HYu28x_rnx8HeXfka5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U6HYu28x_rnx8HeXfka5-7" target="U6HYu28x_rnx8HeXfka5-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U6HYu28x_rnx8HeXfka5-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-6">
-          <mxGeometry width="640" height="430" as="geometry" />
+        <mxCell id="U6HYu28x_rnx8HeXfka5-7" value="Internet" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;" vertex="1" parent="1">
+          <mxGeometry x="140" y="430" width="95" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="U6HYu28x_rnx8HeXfka5-5" value="pfSense" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-6">
-          <mxGeometry x="290" y="10" width="50" height="30" as="geometry" />
+        <mxCell id="U6HYu28x_rnx8HeXfka5-17" value="pfSense" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="860" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="U6HYu28x_rnx8HeXfka5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U6HYu28x_rnx8HeXfka5-17" source="U6HYu28x_rnx8HeXfka5-19" target="U6HYu28x_rnx8HeXfka5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U6HYu28x_rnx8HeXfka5-19" value="" style="shape=mxgraph.cisco.security.firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-17">
+          <mxGeometry x="50" y="287.5" width="29" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="U6HYu28x_rnx8HeXfka5-21" value="" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-17">
+          <mxGeometry x="140" y="294.5" width="78" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
