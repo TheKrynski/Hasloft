@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T22:27:32.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Lde1aMulfCmhulsQHDKu" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T23:28:55.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="dtAdqKxDGgkd1_IF_Ofk" version="21.2.9" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="70" y="411" width="95" height="62" as="geometry" />
         </mxCell>
         <mxCell id="U6HYu28x_rnx8HeXfka5-17" value="pfSense" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="240" y="120" width="3330" height="1940" as="geometry" />
+          <mxGeometry x="270" y="130" width="3330" height="1940" as="geometry" />
         </mxCell>
         <mxCell id="U6HYu28x_rnx8HeXfka5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U6HYu28x_rnx8HeXfka5-17" source="U6HYu28x_rnx8HeXfka5-19" target="U6HYu28x_rnx8HeXfka5-21">
           <mxGeometry relative="1" as="geometry" />
@@ -47,19 +47,25 @@
           <mxGeometry x="370" y="50" width="210" height="260" as="geometry" />
         </mxCell>
         <mxCell id="U6HYu28x_rnx8HeXfka5-32" value="Subnets" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-17">
-          <mxGeometry x="290" y="510" width="2100" height="690" as="geometry" />
+          <mxGeometry x="310" y="510" width="1820" height="690" as="geometry" />
         </mxCell>
         <mxCell id="U6HYu28x_rnx8HeXfka5-33" value="Subnet A - Servers" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-32">
           <mxGeometry x="50" y="71" width="510" height="589" as="geometry" />
         </mxCell>
         <mxCell id="U6HYu28x_rnx8HeXfka5-37" value="10.10.0.0/16" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-33">
-          <mxGeometry x="89.5" y="52" width="101" height="50" as="geometry" />
+          <mxGeometry x="204.5" y="52" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U6HYu28x_rnx8HeXfka5-47" value="Subnet A1 - Normal WAN-Facing Servers" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-33">
-          <mxGeometry x="10" y="129" width="240" height="261" as="geometry" />
+          <mxGeometry x="10" y="129" width="240" height="291" as="geometry" />
+        </mxCell>
+        <mxCell id="U6HYu28x_rnx8HeXfka5-50" value="10.10.1.0/16" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-47">
+          <mxGeometry x="69" y="40" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U6HYu28x_rnx8HeXfka5-49" value="Subnet A2 - Servers Tunneled to External VPN" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-33">
           <mxGeometry x="260" y="129" width="230" height="291" as="geometry" />
+        </mxCell>
+        <mxCell id="U6HYu28x_rnx8HeXfka5-51" value="10.10.2.0/16" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-49">
+          <mxGeometry x="64.5" y="60" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U6HYu28x_rnx8HeXfka5-34" value="Subnet B - Local Home Devices" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-32">
           <mxGeometry x="600" y="72" width="265" height="329" as="geometry" />
@@ -84,6 +90,9 @@
         </mxCell>
         <mxCell id="U6HYu28x_rnx8HeXfka5-45" value="10.xx.0.0/16" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-44">
           <mxGeometry x="74.5" y="51" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U6HYu28x_rnx8HeXfka5-52" value="Outbound VPN Traffic" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="U6HYu28x_rnx8HeXfka5-17">
+          <mxGeometry x="1150" y="60" width="800" height="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
